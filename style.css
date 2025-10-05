@@ -1,0 +1,81 @@
+body {
+  background-color: #f7f8fb;
+  font-family: 'Poppins', sans-serif;
+}
+
+.locket-card {
+  background: #fff;
+}
+
+.locket-header {
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+}
+
+.alert-box {
+  background: linear-gradient(145deg, #6a11cb, #2575fc);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.btn-warning {
+  background: linear-gradient(90deg, #ff8c00, #ff6600);
+  border: none;
+}
+
+.orange-steps li {
+  border-left: 3px solid #ff6600;
+  padding-left: 8px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .locket-card, .guide-box {
+    margin: 10px;
+  }
+}
+body {
+  background-color: #f7f8fb;
+  font-family: 'Poppins', sans-serif;
+}
+
+.locket-header {
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+}
+
+.alert-box {
+  background: linear-gradient(145deg, #6a11cb, #2575fc);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.btn-warning {
+  background: linear-gradient(90deg, #ff8c00, #ff6600);
+  border: none;
+}
+
+.orange-steps li {
+  border-left: 3px solid #ff6600;
+  padding-left: 8px;
+  margin-bottom: 6px;
+}
+
+#countdown {
+  font-size: 40px;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from { opacity: 1; }
+  to { opacity: 0.3; }
+}
+#contactForm input, #contactForm textarea {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#contactForm button {
+  background: linear-gradient(90deg, #ff8c00, #ff6600);
+  border: none;
+}
+
+#result {
+  font-weight: 500;
+}
